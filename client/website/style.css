@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+ul li {
+  padding: 5px;
+  background: #f4f4f4;
+  margin: 5px 0;
+  width: 100%;
+}
+
+header {
+  background: #e9dbdb;
+  padding: 1rem;
+  text-align: center;
+  text-emphasis-color: rgb(27, 2, 2);
+  text-decoration-color: rgb(234, 241, 241);
+}
+
+.container {
+  margin: auto;
+  width: 500px;
+  overflow: auto;
+  padding: 3rem 2rem;
+}
+
+#my-form {
+  padding: 2rem;
+  background: #f4f4f4;
+}
+
+#my-form label {
+  display: block;
+}
+
+#my-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+#my-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+#my-form input[type="datetime-local"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.btn:hover {
+  background: #444;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.error {
+  background: orangered;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+}
+
+#creditForm {
+  padding: 2rem;
+  background: #f4f4f4;
+}
+
+#creditForm label {
+  display: block;
+}
+
+#creditForm input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+#creditForm input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+#creditForm input[type="datetime-local"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.pull-left{
+  flex-basis: 20%;
+}
+.pull-right{
+  flex-basis: 50%;
+}
+.pull-right h2{
+  font-family:'Kalam', cursive ;
+  color:rgb(241, 57, 57);
+}
+.pull-left h2{
+  font-family: 'Kalam', cursive;
+  color: rgb(136, 202, 49);
+}
+.pull-right p{
+  font-family: 'Alkatra', cursive;
+  
+}
+
+#itemButton{
+  background-color: rgb(68, 68, 235);
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#itemButton:hover{
+  background-color: rgb(45, 45, 236);
+}
+
+#deletekey{
+  background-color: #ff4d4d; /* Red background color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#deletekey:hover {
+  background-color: #ff3333; /* Darker red on hover */
+}
