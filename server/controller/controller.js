@@ -66,13 +66,13 @@ module.exports.getdata=async(req,res,next)=>{
     //         lastPage:Math.ceil(totalItems/ITEMS_PER_PAGE)
     //     })
     // }).catch(err=>console.log(err))
-    console.log(req.query,req.params)
+    // console.log(req.query,req.params)
     await userExpences.countDocuments({userId:req.user._id}).then(total=>{
-        console.log(total)
+        // console.log(total)
         totalItems=total;
         return userExpences.find({userId:req.user._id}).skip(parseInt((page-1)*ITEMS_PER_PAGE)).limit(parseInt(ITEMS_PER_PAGE));
     }).then(expence=>{
-        console.log(expence)
+        // console.log(expence)
         res.json({
                     expence:expence,
                     currentPage:page,
